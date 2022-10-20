@@ -91,7 +91,7 @@ const cardNumberMasked = IMask(cardNumber, cardNumberPattern)
 const addButton = get("#add-card")
 
 addButton.addEventListener("click", () => {
-    alert("Prosseguir para adicionar o cartão!?")
+    alert("Não foi realizada nenhuma validação!")
 })
 
 const formCard = get("form")
